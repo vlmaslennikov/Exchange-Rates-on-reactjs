@@ -1,0 +1,42 @@
+
+form{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+  }
+  .calc-res{
+    margin:10px 0;
+    padding-left: 5%;
+    font-size: 25px;
+    display:flex;
+    flex-direction: row;
+  }
+  .calc-res li{
+      margin-left: 30px;
+  } 
+  form button{
+    margin:25% 0 0;
+    padding:15px ;
+    border: 1px solid rgb(83, 95, 86);
+    border-radius: 3px;
+    background: rgb(247, 237, 149);
+    background: linear-gradient(90deg, 
+    rgba(250,246,207,1) 0%, 
+    rgb(235, 227, 187) 0%, 
+    rgb(245, 238, 217) 0%, 
+    rgba(226, 217, 147, 0.863) 98%);
+     
+  }
+  form button:hover{
+    opacity: 0.7;
+    background:  rgb(212, 180, 75);
+    background: linear-gradient(90deg, 
+    rgba(250,246,207,1) 0%, 
+    rgba(249,247,235,1) 0%, 
+    rgb(248, 244, 210) 0%, 
+    rgb(212, 180, 75) 98%);
+  }
+  select{
+    padding-left: 57%;
+  }

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size: 100%;
+  font:inherit;
+  font-family: 'Abril Fatface', cursive;
+  color: #424d45;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+ width:100vw;
+} 
+
+h1{
+  font-size:2rem;
+}
+h3{
+  font-size: 1.6rem;
+}
+
+/* a:active{
+   
+   text-decoration: none; 
+} */
+
+
+.main-content{
+  height:68vh;
+  width:100vw;
+  background: rgb(194,194,194);
+  background: linear-gradient(90deg, 
+  rgba(194,194,194,1) 0%, 
+  rgba(249,247,247,1) 29%, 
+  rgba(242,242,242,1) 84%);
+  position: relative;
+}
+
+  

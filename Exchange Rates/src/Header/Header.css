@@ -1,0 +1,30 @@
+header{
+    background: rgb(250,246,207);
+    background: linear-gradient(90deg,
+     rgba(250,246,207,1) 0%,
+     rgba(249,247,235,1) 0%,
+     rgba(250,248,234,1) 0%,
+     rgb(212, 180, 75) 98%);
+     width: 100vw;
+  }
+  
+  .top-line{
+    height: 20px;
+  }
+  
+  .main-header{
+   padding: 20px 0 25px;
+   border-top: 3px solid #53460b;
+   border-bottom: 2px solid #53460b;
+  }
+   
+  .site-title{
+    padding-right: 7vh;
+    -webkit-text-stroke-width: 0.35px;
+    -webkit-text-stroke-color:#75703b;
+    color:rgb(250, 245, 236);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    text-shadow: rgb(12, 1, 1) 2px 2px 7px;
+     text-align: right;
+  }

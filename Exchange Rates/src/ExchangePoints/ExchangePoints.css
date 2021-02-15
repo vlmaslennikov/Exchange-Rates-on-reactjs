@@ -1,0 +1,40 @@
+.exchange-place{
+    height:68vh ;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    position: relative;
+  }
+  .exchange-points{
+    height:inherit ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:inherit;
+  }
+  .location-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position:inherit;
+    margin: 0 2vh;
+  }
+  .location-place{
+    max-height: 25vh;
+    position:inherit;
+    font-size: 4vh;
+  }
+  
+  .location-place li{
+    font-size: 2vh;
+    line-height: 4vh;
+    margin: 0 1.6vh;
+  }
+  
+  .location-place:hover{
+    color:#fff;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:#69621d; 
+    text-shadow: rgb(26, 18, 18) 2px 2px 7px;
+     
+  }
